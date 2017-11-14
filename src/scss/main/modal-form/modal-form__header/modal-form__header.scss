@@ -1,0 +1,10 @@
+.modal-form__header {
+    margin-bottom: 60px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .modal-form__header {
+        display: none;
+    }
+}

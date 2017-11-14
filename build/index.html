@@ -18,22 +18,53 @@
             <h1 class="header__title">Криптовалюты. Блокчейн</h1>
             <h2 class="header__description">Практические рекомендации для получения дохода</h2>
             <p class="header__text">Раскрой для себя весь потенциал возможностей последних разработок, основанных на технологии Блокчейн. Все участники конференции гарантированно получат видение будущего</p>
-            <button class="button header__button">ДА, Я Хочу ПОЙТИ НА КОНФЕРЕНЦИЮ!</button>
+            <button class="button header__button dialog">ДА, Я Хочу ПОЙТИ НА КОНФЕРЕНЦИЮ!</button>
         </div>
     </header>
-    <div id="form">
-        <div class="form form_dialog">
-            <div class="form__container container">
-                <h3 class="form__header">участие бесплатное.<br>регистрация.*</h3>
-                <form class="form__content" action="">
-                    <input type="text" class="form__input" placeholder="Имя и Фамилия">
-                    <input type="email" class="form__input" placeholder="E-mail">
-                    <input type="text" class="form__input" placeholder="Номер мобильного телефона">
-                    <p class="form__text">*Регистрируясь, Вы даете согласие на обработку Ваших персональных данных.<br>Мы не передаем Ваши персональные данные третьим лицам.</p>
-                    <input type="submit" class="button" value="иду на конференцию">
-                </form>
-            </div>
-        </div>
+    <div action="" class="modal-form">
+        <svg class="modal-form__close" xmlns="http://www.w3.org/2000/svg" width="22.62" height="22.625" viewBox="0 0 22.62 22.625">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+  </defs>
+  <path d="M1014.69,110.1l1.41-1.413,21.21,21.213-1.41,1.414Zm21.21-1.413,1.41,1.413-21.21,21.214-1.41-1.414Z" transform="translate(-1014.69 -108.688)"/>
+</svg>
+        <h3 class="header-form modal-form__header">заполните  форму для регистрации</h3>
+        <form action="">
+            <input class="modal-form__input input" type="text" placeholder="Имя и Фамилия" required>
+            <input class="modal-form__input input" type="email" placeholder="E-mail" required>
+            <input class="modal-form__input input" type="tel" placeholder="Номер мобильного телефона" required>
+            <p class="note modal-form__text">*Регистрируясь, Вы даете согласие на обработку Ваших персональных данных. Мы не передаем Ваши персональные данные третьим лицам.</p>
+            <button class="button dialog">забронировать место</button>
+        </form>
+    </div>
+    <div class="overlay"></div>
     </div>
     <section class="timer">
         <div class="timer__title">
@@ -43,7 +74,7 @@
         <div class="timer__clock">
             <script src="http://megatimer.ru/s/41df4625b53b2b4c8dd19291fb8de273.js"></script>
         </div>
-        <button class="button">Зарегистрироваться</button>
+        <button class="button dialog">Зарегистрироваться</button>
     </section>
     <section class="definition">
        <div class="container">
@@ -58,7 +89,7 @@
             <li class="themes__item">Технология Blockchain. Что это такое и почему за ней будущее.</li>
             <li class="themes__item">Финансовая привлекательность Системы Bitbon.</li>
         </ul>
-        <button class="button">иду на событие</button>
+        <button class="button dialog">иду на событие</button>
     </section>
     <section class="event">
         <div class="event__bg"></div>
@@ -107,12 +138,12 @@
     </section>
     <footer class="form">
         <div class="form__container container">
-            <h3 class="form__header">участие бесплатное.<br>регистрация.*</h3>
-            <form class="form__content" action="">
-                <input type="text" class="form__input" placeholder="Имя и Фамилия">
-                <input type="email" class="form__input" placeholder="E-mail">
-                <input type="text" class="form__input" placeholder="Номер мобильного телефона">
-                <p class="form__text">*Регистрируясь, Вы даете согласие на обработку Ваших персональных данных.<br>Мы не передаем Ваши персональные данные третьим лицам.</p>
+            <h3 class="header-form form__header">участие бесплатное.<br>регистрация.*</h3>
+            <form class="form__content registration" action="">
+                <input type="text" name="name" id="name" class="input form__input" placeholder="Имя и Фамилия" required>
+                <input type="email" name="email" class="input form__input" placeholder="E-mail" required>
+                <input type="tel" name="phone" min="10" max="13" class="input form__input" placeholder="Телефон" required>
+                <p class="note form__text">*Регистрируясь, Вы даете согласие на обработку Ваших персональных данных.<br>Мы не передаем Ваши персональные данные третьим лицам.</p>
                 <input type="submit" class="button" value="иду на конференцию">
             </form>
         </div>

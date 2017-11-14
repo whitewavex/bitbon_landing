@@ -1,0 +1,20 @@
+.header-form {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .header-form {
+        font-size: 30px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .header-form {
+        font-size: 26px;
+    }
+}
