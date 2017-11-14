@@ -15,7 +15,7 @@ var gulp = require('gulp'),
 var path = {
     build: {
         html: 'build/',
-        styles: 'build/css',
+        styles: 'build/',
         js: 'build/js',
         images: 'build/images',
         fonts: 'build/fonts'
@@ -53,7 +53,7 @@ gulp.task('styles', function() {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(prefixer())
-        .pipe(cssmin())
+//        .pipe(cssmin())
         .pipe(concat('style.css'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.styles));
@@ -107,7 +107,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task( 'server', function(){
-    gulp.src('./build')
+    gulp.src('build')
         .pipe(server({
             livereload: true,
             open: true
