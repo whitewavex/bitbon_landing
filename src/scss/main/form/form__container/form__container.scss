@@ -1,0 +1,19 @@
+.form__container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .form__container {
+        width: 400px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .form__container {
+        width: 240px;
+    }
+}

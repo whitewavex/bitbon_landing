@@ -1,0 +1,10 @@
+.header__button {
+    margin-top: 70px;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .header__button {
+        margin-top: 50px;
+    }
+}

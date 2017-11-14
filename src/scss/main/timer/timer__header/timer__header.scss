@@ -1,0 +1,11 @@
+.timer__header {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .timer__header {
+        display: none;
+    } 
+}

@@ -1,0 +1,26 @@
+.header__preview {
+    font-size: 30px;
+    text-shadow: 0 2px 5px rgba(0,0,0,.4);
+    margin-top: 38px;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .header__preview {
+        font-size: 22px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .header__preview {
+        font-size: 18px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .header__preview {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,10 @@
+.speaker__img {
+    float: left;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .speaker__img {
+        float: none;
+    }
+}

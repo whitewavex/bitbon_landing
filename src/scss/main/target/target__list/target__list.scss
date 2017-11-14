@@ -1,0 +1,12 @@
+.target__list {
+    margin: 70px auto 0;
+    max-width: 950px;
+    padding-left: 40px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .target__list {
+        margin-top: 40px;
+    }
+}

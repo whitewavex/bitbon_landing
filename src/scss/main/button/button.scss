@@ -1,0 +1,29 @@
+.button {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 47px;
+    border-radius: 10px;
+	background-color: #25c4ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    line-height: 1.5;
+    
+    &:hover {
+        background-color: #029bd4;
+    }
+    
+    &:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .button {
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

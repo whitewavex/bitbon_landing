@@ -1,0 +1,14 @@
+.header__date {
+    display: inline-block;
+	background-color: #483131;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 9px 24px;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .header__date {
+        font-size: 16px;
+    }
+}

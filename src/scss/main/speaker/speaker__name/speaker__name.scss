@@ -1,0 +1,11 @@
+.speaker__name {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .speaker__name  {
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,12 @@
+.themes__list {
+    margin: 70px auto 60px;
+    max-width: 800px;
+    padding-left: 40px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .themes__list {
+        margin: 60px auto 40px;
+    }   
+}

@@ -1,0 +1,10 @@
+.timer__clock {
+    margin: 32px 0 90px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .timer__clock {
+        display: none;
+    } 
+}

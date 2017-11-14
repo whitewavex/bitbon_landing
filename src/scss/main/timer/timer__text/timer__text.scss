@@ -1,0 +1,13 @@
+.timer__text {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .timer__text {
+        font-size: 20px;
+        margin-bottom: 30px;
+    } 
+}
