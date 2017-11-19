@@ -1,14 +1,14 @@
-.target__item {
-    font-size: 22px;
+.target ul li {
+    font-size: 21px;
     text-align: left;
     margin-bottom: 35px;
-    list-style-image: url(images/mark_dark.svg);
+    list-style: disc;
     padding-left: 13px;
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-    .target__item {
+    .target ul li {
         font-size: 16px;
     }
 }

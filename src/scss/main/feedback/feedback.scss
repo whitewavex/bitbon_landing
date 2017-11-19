@@ -1,0 +1,16 @@
+.feedback {
+    position: fixed;
+    top: 4%;
+    right: 4%;
+    z-index: 2;
+    display: block;
+    
+    svg {
+        border: 10px solid #00a0e3;
+        border-radius: 50%;
+    
+        &:hover {
+            border: 10px solid #0087c0;
+        }
+    }
+}

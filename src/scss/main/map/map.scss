@@ -1,0 +1,25 @@
+.map {
+    position: relative;
+    padding-bottom: 20%;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .map {
+        padding-bottom: 35%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .map {
+        padding-bottom: 50%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .map {
+        display: none;
+    }   
+}
